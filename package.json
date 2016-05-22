@@ -1,0 +1,22 @@
+{
+  "name": "packer.io",
+  "version": "1.0.0",
+  "description": "download packer-cli from packer.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "packerdl": "./index.js"
+  },
+  "keywords": [
+    "packer.io"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "concat-stream": "^1.5.1",
+    "progress": "^1.1.8"
+  }
+}
